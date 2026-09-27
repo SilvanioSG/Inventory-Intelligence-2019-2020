@@ -14,12 +14,12 @@
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 **Silvanio Gois** — Gestor de Operações e Negócios Orientado a Dados
 
 ---
 
-## 📋 1. Visão Geral
+## 1. Visão Geral
 O projeto **Inventory Intelligence 2019–2020** foi construído para responder a perguntas operacionais e estratégicas de gestão de estoque a partir de uma base histórica de dois anos. A solução integra dados de vendas, estoques e cadastros em um modelo dimensional, permitindo análises de desempenho, eficiência e necessidade de reposição.
 
 > **Objetivos principais:**
@@ -40,6 +40,9 @@ O projeto **Inventory Intelligence 2019–2020** foi construído para responder 
 * `Venda2019.xlsx`
 * `Venda2020.xlsx`
 
+### Logo utilizado na página início:
+* `logo_br_site`
+  
 ### Arquivos gerados:
 * `InventoryIntelligence2019–2020.pbix`
 * `InventoryIntelligence2019–2020.pdf`
@@ -58,7 +61,7 @@ O projeto **Inventory Intelligence 2019–2020** foi construído para responder 
 
 ---
 
-## ⚙️ 3. Metodologia Técnica
+## 3. Metodologia Técnica
 
 ### 3.1 Extração e Transformação (Power Query)
 Os arquivos originais estavam em formato matricial, com os meses dispostos em colunas. O tratamento aplicado consistiu em:
@@ -102,7 +105,7 @@ Tabela `Parâmetros` criada para tornar o modelo ajustável sem reescrita de DAX
 
 ---
 
-## 📑 4. Estrutura do Relatório
+## 4. Estrutura do Relatório
 
 * **Página 1 — Início:** Capa institucional com identificação do projeto, objetivo e aviso de dados simulados para validação analítica.
 * **Página 2 — Visão Geral Executiva:** KPIs consolidados de quantidade de vendas, custo de vendas, giro, estoque médio, cobertura e ruptura. Série temporal mensal de vendas e estoque, Top 5 produtos por custo de vendas, custo por grupo e participação do grupo no valor de estoque.
@@ -117,7 +120,7 @@ Tabela `Parâmetros` criada para tornar o modelo ajustável sem reescrita de DAX
 
 ---
 
-## 📊 5. Análise e Insights
+## 5. Análise e Insights
 A leitura integrada das páginas permite extrair conclusões relevantes sobre o comportamento do portfólio no período:
 * Crescimento expressivo de vendas em 2020 (+85,82%), acompanhado por elevação do estoque médio (+93,81%), indicando expansão simultânea de demanda e volume estocado.
 * Custo total de vendas de R$ 5,36 Mi distribuído de forma equilibrada entre os grupos Dormitório (R$ 2,80 Mi) e Salas de Jantar (R$ 2,56 Mi).
@@ -129,7 +132,7 @@ A leitura integrada das páginas permite extrair conclusões relevantes sobre o 
 
 ---
 
-## 🛠️ 6. Tecnologias e Técnicas Aplicadas
+## 6. Tecnologias e Técnicas Aplicadas
 * **Power BI Desktop** — modelagem, DAX e visualização.
 * **Power Query (M)** — extração, transformação e consolidação de dados.
 * **Modelagem dimensional (Star Schema)** — separação entre fatos e dimensões.
@@ -142,7 +145,7 @@ A leitura integrada das páginas permite extrair conclusões relevantes sobre o 
 
 ---
 
-## 🖼️ 7. Capturas do Relatório
+## 7. Capturas do Relatório
 
 ### Página 1 — Início
 ![Página 1 - Início](pagina1.png)
@@ -176,18 +179,18 @@ A leitura integrada das páginas permite extrair conclusões relevantes sobre o 
 
 ---
 
-## 🔗 8. Acesso ao Projeto
+## 8. Acesso ao Projeto
 * **Dashboard online:** [Acessar no Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiNThjOWI4ZTYtYjFkNS00OTlkLTlmMmUtNDIyNmNiMzQxYzcxIiwidCI6IjJlYmQyYzU0LWY1ZDMtNGVmYi05ZGE3LWU4Yzk0YmQyMWQzOSJ9)
 * **Repositório:** [GitHub - Inventory-Intelligence-2019-2020](https://github.com/SilvanioSG/Inventory-Intelligence-2019-2020)
 
 ---
 
-## ⚠️ 9. Observações
+## 9. Observações
 Os dados utilizados neste projeto são simulados e destinados exclusivamente à validação de layout, modelagem e capacidade analítica. Nenhuma informação real de empresa, cliente ou operação está contida neste repositório.
 
 ---
 
-## 📬 10. Contato
+## 10. Contato
 **Silvanio Gois** — Gestor de Operações e Negócios Orientado a Dados  
 * **Site:** [silvaniogois.com.br](https://www.silvaniogois.com.br)  
 * **LinkedIn:** [in/silvanio-gois](https://www.linkedin.com/in/silvanio-gois/)  
